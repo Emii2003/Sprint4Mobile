@@ -1,16 +1,63 @@
-# flutter_application_1
 
-A new Flutter project.
+# Equipe de Desenvolvimento
 
-## Getting Started
+## Alunos:
 
-This project is a starting point for a Flutter application.
+| Nome                                    | RM       |
+| --------------------------------------- | -------- |
+| **Caio Vitor Urbano Neves**             | RM552392 |
+| **Emile de Moura Maia**                 | RM552235 |
+| **Guilherme Pereira de Oliveira**      | RM552238 |
+| **Julia Andrade Dias**                  | RM552332 |
+| **Maria Eduarda Costa de Araújo Vieira**| RM98760  |
 
-A few resources to get you started if this is your first Flutter project:
+## Passo a passo para rodar a API Python
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Certifique-se de ter o python instalado
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Rode os seguintes comandos no terminal:
+
+
+```python
+pip install fastapi uvicorn pymongo
+```
+
+```python
+python -m uvicorn main:app --reload
+```
+
+---
+
+### Instruções de Uso
+
+1. **Instale as dependências**:
+    ```bash
+    flutter pub get
+    ```
+
+2. **Rodar o projeto**:
+    ```bash
+    flutter run
+    ```
+
+---
+
+### Tecnologias Utilizadas
+
+- **Flutter**: Framework para desenvolvimento de aplicativos móveis e web.
+- **FastAPI**: Framework web para construir APIs com Python.
+- **MongoDB**: Banco de dados NoSQL utilizado para armazenar os dados do projeto.
+
+---
+
+### Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests*.
+
+---
+
+
+
+
+
+
